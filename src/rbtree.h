@@ -2,6 +2,8 @@
 #define _RBTREE_H_
 
 #include <stddef.h>
+#include <math.h>
+#include <string.h>
 
 typedef enum { RBTREE_RED, RBTREE_BLACK } color_t;
 
